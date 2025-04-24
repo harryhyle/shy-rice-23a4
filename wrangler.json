@@ -1,0 +1,30 @@
+{
+  "name": "shy-rice-23a4",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "withered-frost-bec3-d1",
+      "database_id": "84a85ba7-8978-4c6b-ac98-9040a1e286d3"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "shy-rice-23a4-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
